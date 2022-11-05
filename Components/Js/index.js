@@ -4,6 +4,7 @@ $(document).ready(function(){
     $('.nav-icon1').click(function () {
         $(this).toggleClass('open');
         $('nav').toggleClass('active');
+        $('body').toggleClass('active');
     });
 
     $('.owl-carousel.owl-ball').owlCarousel({

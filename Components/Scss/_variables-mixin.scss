@@ -53,7 +53,7 @@ a.btn2{
 	font-family: 'Helvetica Neue';
 	width: 234px;
 	height: 53px;
-	padding: 15px 38px;
+	padding: 13px 38px;
 	border-radius: 26.5px;
 	border: solid 1px #282e47;
 	font-size: 13px;
@@ -66,6 +66,10 @@ a.btn2{
 		margin-left: 5px;
 		float: right;
 	}
+}
+
+body.active{
+	overflow: hidden;
 }
 
 @font-face {
@@ -264,6 +268,10 @@ section.our-rackets{
 
 			.item-content{
 					position: relative;
+					background: url('../images/pelota-verde.jpg');
+					height: 100%;
+					background-repeat: no-repeat;
+					background-size: cover;
 					figure{
 						img{
 							display: table;

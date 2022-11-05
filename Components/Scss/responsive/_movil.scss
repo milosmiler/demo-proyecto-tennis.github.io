@@ -150,7 +150,6 @@
 
     }
 
-
     section.our-rackets{
         .item-container{
             flex-direction: column;
@@ -170,8 +169,10 @@
                 }
 
                 .item-content{
+                    height: 50vh;
                     .item-overlay{
                         padding: 0;
+                        align-items: center;
                         .item-data{
                             padding-top: 20px;
                             h2{
