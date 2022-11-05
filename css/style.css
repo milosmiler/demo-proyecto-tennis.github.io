@@ -906,9 +906,9 @@ button.arrow.right {
         transform: rotate(-135deg)
     }
     header nav {
-        position: fixed;
+        position: absolute;
         width: 100%;
-        height: calc(100vh - 60px);
+        height: 200vh;
         background: #2b3049;
         left: 0;
         top: -40px;
