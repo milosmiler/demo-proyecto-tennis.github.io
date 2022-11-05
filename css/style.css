@@ -916,7 +916,8 @@ button.arrow.right {
         padding: 155px 20px 0 96px;
         transition: all .3s ease;
         visibility: hidden;
-        opacity: 0
+        opacity: 0;
+        overflow: hidden;
     }
     header nav.active {
         visibility: visible;
