@@ -1,0 +1,25 @@
+footer{
+    padding: 74px 0 56px  78px;
+    background-color: #cbe346;
+    position: relative;
+    nav.footer{
+        margin-bottom: 20px;
+        a{
+            font-family: 'Helvetica Neue';
+            font-size: 13px;
+            letter-spacing: 1.14px;
+            color: #2b3049;
+            margin-right: 35px;
+        }
+    }
+    aside.social{
+        a{
+            margin-right: 12px;
+        }
+    }
+    figure.pelota{
+        position: absolute;
+        top: 77px;
+        right: 53px;
+    }
+}
